@@ -42,7 +42,7 @@ jobs:
 
       - store_artifacts:
           path: target/JMusicBot-Snapshot.jar
-          destination: jars
+          destination: JMusicBot-Snapshot.jar
 
 workflows:
   version: 2
