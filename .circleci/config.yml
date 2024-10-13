@@ -41,7 +41,7 @@ jobs:
       - run: mvn integration-test
 
       - store_artifacts:
-          path: target/*.jar
+          path: target/JMusicBot-Snapshot.jar
           destination: jars
 
 workflows:
